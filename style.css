@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #1d2023;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 20px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container
+{
+    position: relative;
+    width: 30em;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e2227;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 25),
+    10px 10px 70px rgba(0, 0, 0, 25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.input{
+    position: relative;
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 300%;
+    margin: 20px 0px;
+    padding: 10px 15px;
+    right: 0em;
+    bottom: 10em;
+    left: 6em;
+}
+
+.row{
+    display: grid;
+    justify-content: center;
+    margin-top: 5px 0px;
+    grid-gap: 0rem;
+    grid-template-columns: repeat(auto-fit, minmax(80px,0fr));
+} 
+
+.button{
+    margin: 5px 0px;
+    padding: 5px 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: rgb(255, 166, 0);
+}
+
+footer{
+    color: white;
+    font-size: 1.5em;
+    margin: 30px 0
+}
